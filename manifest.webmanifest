@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "Streaks – Habit Heatmap",
+  "short_name": "Streaks",
+  "description": "Habits, heatmap, to-dos and a focus timer with cozy music and reminders.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F2F2F7",
+  "theme_color": "#F2F2F7",
+  "categories": ["productivity", "lifestyle", "health"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "New habit", "url": "./?a=new", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Focus timer", "url": "./?a=focus", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Add to-do", "url": "./?a=todo", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
